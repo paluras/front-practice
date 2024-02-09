@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Outfit;
+    src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  }
+  
+  @font-face {
+    font-family: Young-serif;
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  :root {
+    --border-radius: 10px;
+    --primary-color: hsl(14, 45%, 36%);
+    --secondarr-color: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+  }
+  
+  body {
+    font-family: Outfit, sans-serif;
+    background-color: var(--eggshell);
+    color: var(--dark-charcoal);
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    width: 50vw;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+    margin: 100px 0;
+  }
+  
+  
+  
+  li {
+    padding: 5px;
+  }
+  
+  article {
+    border-radius: var(--border-radius);
+    padding: 20px;
+    background-color: var(--rose-white);
+  
+    & h1 {
+      color: var(--secondarr-color);
+      margin: 5px;
+    }
+  }
+  h1 {
+    color: #834631;
+    font-family: Young-serif, sans-serif;
+    font-weight: 400;
+  }
+  
+  img {
+    object-fit: contain;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td {
+    border-bottom: 1px solid var(--light-grey);
+    padding: 10px 20px;
+  }
+  hr {
+    background-color: var(--light-grey);
+    color: var(--light-grey);
+    border-style: dashed;
+  }
+  
+  tr:nth-child(4) td {
+    border-style: solid var(--light-grey);
+  }
+  
+  td:nth-child(2) {
+    color: #834631;
+    font-weight: bold;
+  }
+  
+  /* weird fix */
+  
+  main > section:first-of-type > h1 {
+    color: var(--dark-charcoal);
+    font-size: 32px;
+  }
+  
+  @media (max-width: 750px) {
+    * {
+      box-sizing: content-box;
+    }
+    body {
+      margin: 0px;
+    }
+    main {
+      width: 100vw;
+      margin: 0;
+      padding: 0px;
+    }
+    img {
+      border-radius: 0px;
+    }
+  
+    section:not(img) {
+      padding: 0 20px;
+    }
+  }
+  

@@ -1,0 +1,116 @@
+*{
+  font-family: 'Inter', sans-serif;
+  
+  margin: 0px;
+  
+}
+
+  
+
+.header{
+  height: 55px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+  gap:7px;
+  margin-bottom: 27px;
+ 
+}
+
+
+.card{
+  display: flex;
+  padding: 18px 40px 18px 40px;
+  border-bottom: 1px solid #F5F5F5;
+  max-height: 168px ;
+  overflow:hidden;
+}
+
+.right-body{
+  padding: 15px;
+  
+}
+
+.img-location>img{
+  max-width: 125px;
+  position: relative;
+  min-height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.location-point{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  
+}
+
+.point-location{
+  display: flex;
+  gap: 12px;
+  
+}
+
+.location-point > img{
+  position: absolute;
+}
+
+.point-location > h3{
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+letter-spacing: 0.17em;
+color: #2B283A;
+}
+
+.location-point > a{
+  font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+
+.location-title{
+  font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+margin-top: 1%;
+}
+
+.date{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+
+
+padding: 20px 0 9px 0;
+}
+
+.card > p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 15px;
+/* or 15px */
+margin-bottom: 20px ;
+
+color: #2B283A;
+}
+
+
