@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import recepiPhoto from "../../public/localhost_3000_project1.png";
 
 function Card({ title, description, image, link }) {
   return (
@@ -14,6 +15,7 @@ function Card({ title, description, image, link }) {
         />
         <div className={styles.div}>
           <h1>{title}</h1>
+          
           <p>{description}</p>
         </div>
       </div>
@@ -31,21 +33,21 @@ export default function Home() {
       <section className={styles.section}>
         <Card
           title={"Recipe"}
-          description={"Easy"}
-          image={"/localhost_3000_project1.png"}
+          description={"02/08/2024"}
+          image={recepiPhoto}
           link={"/project1"}
         />
         <Card
-          title={"Recipe"}
-          description={"Easy"}
-          image={"/localhost_3000_project1.png"}
-          link={"/project1"}
+          title={"Travel Book"}
+          description={"18/01/2023"}
+          image={"/localhost_3000_project2.png"}
+          link={"/project2"}
         />
         <Card
-          title={"Recipe"}
-          description={"Easy"}
-          image={"/localhost_3000_project1.png"}
-          link={"/project1"}
+          title={"TimeTrack"}
+          description={"09/03/2023"}
+          image={"/localhost_3000_project3.png"}
+          link={"/project3"}
         />
       </section>
     </main>
