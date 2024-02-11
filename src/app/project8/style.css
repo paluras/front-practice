@@ -1,0 +1,106 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body,
+html,
+#app {
+  border: 0;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+}
+.left-main-container {
+  width: 40vw;
+  overflow: hidden;
+}
+.splash-img {
+  width: 40vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  position: absolute;
+  top: 300px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.253);
+  color: white;
+  font-size: 48px;
+}
+.logo {
+  height: inherit;
+  object-fit: contain;
+}
+.credit {
+  width: inherit;
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  color: white;
+}
+.credit > p {
+  width: 10vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.right-main-container {
+  width: 60%;
+  height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top,
+.mid,
+.bot {
+  padding: 30px 200px 30px 30px;
+}
+
+.mid {
+  background-color: white;
+  box-shadow: 0px 6px 6px 0px gray;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  border-color: lightgrey;
+  border-radius: 3px;
+  border-width: 1px;
+  background-color: #f9fafb;
+}
+legend {
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background-color: #596d48;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  font-weight: 500;
+}

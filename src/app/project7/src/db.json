@@ -1,0 +1,113 @@
+{ "products": [
+    {
+        "id": 1,
+        "name": "LunaStride",
+        "category": "Womens Footwear",
+        "price": 99.00,
+        "quantity":1,
+        "stock": 5,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "FlexiFit",
+        "category": "Womens Footwear",
+        "price": 42.00,
+        "stock": 4,
+        "quantity":1,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-2.jpg"
+        
+    },
+    {
+        "quantity":1,
+        "id": 3,
+        "name": "SkyRun",
+        "category": "Mens Footwear",
+        "price": 34.00,
+        "stock": 12,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-3.jpg"
+    },
+    {
+        "quantity":1,
+        "id": 4,
+        "name": "StealthTrail",
+        "category": "Mens Footwear",
+        "price": 19.00,
+        "stock": 6,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-4.jpg"
+    },
+    { "quantity":1,
+        "id": 5,
+        "name": "EliteGlide",
+        "category": "Mens Footwear",
+        "price": 19.00,
+        "stock": 0,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-3.jpg"
+    },
+    { "quantity":1,
+        "id": 6,
+        "name": "SwiftStride",
+        "category": "Womens Footwear",
+        "price": 167.00,
+        "stock": 6,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-1.jpg"
+    },
+    { "quantity":1,
+        "id": 7,
+        "name": "AeroBounce",
+        "category": "Womens Footwear",
+        "price": 30.00,
+        "stock": 5,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-3.jpg"
+    },
+    { "quantity":1,
+        "id": 8,
+        "name": "PeakSprint",
+        "category": "Womens Footwear",
+        "price": 49.99,
+        "stock": 9,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-4.jpg"
+    },
+    { "quantity":1,
+        "id": 9,
+        "name": "ActiveFlow",
+        "category": "Mens Footwear",
+        "price": 49.99,
+        "offer": 39.99,
+        "stock": 9,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-2.jpg"
+    },
+    { "quantity":1,
+        "id": 10,
+        "name": "BlazeTrack",
+        "category": "Womens Footwear",
+        "price": 75.00,
+        "stock": 2,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-2.jpg"
+    },
+    { "quantity":1,
+        "id": 11,
+        "name": "TurboCharge",
+        "category": "Womens Footwear",
+        "price": 175.50,
+        "stock": 1,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-1.jpg"
+    },
+    { "quantity":1,
+        "id": 12,
+        "name": "GravityStep",
+        "category": "Mens Footwear",
+        "price": 270.00,
+        "stock": 10,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-4.jpg"
+    },
+    { "quantity":1,
+        "id": 13,
+        "name": "EnergyBoost",
+        "category": "Womens Footwear",
+        "price": 540.00,
+        "stock": 5,
+        "photo":"https://raw.githubusercontent.com/paluras/ecomerce/master/src/assets/image-product-2.jpg"
+    }
+    ]
+}

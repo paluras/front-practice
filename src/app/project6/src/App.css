@@ -1,0 +1,187 @@
+*{
+  font-family: 'Space Mono', monospace;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.buttons-calc .custom-btn {
+  background-color: transparent;
+  
+}
+#root{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c4e4e7;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  display: flex;
+  max-width: 60vw;
+  max-height: 40vh;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+.left-main{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 40px; 
+}
+
+
+.left-main button{
+  border: none;
+  background-color: #00474b;
+  padding: 0px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+.left-main button:focus{
+  background-color: #178288;
+}
+
+.bill-sum input{
+  background-position:10px ;
+  background-image: url("./assets/icon-dollar.svg");
+  background-repeat: no-repeat; 
+}
+.nr-ppl input {
+  background-position:10px ;
+  background-image: url("./assets/icon-person.svg");
+  background-repeat: no-repeat; 
+}
+input{
+  border: none;
+  background-color: #f3f8fa;
+  width:98%;
+  height: 32px;
+  border-radius: 5px;
+  text-align:right;
+  font-size: 2.5vh;
+ 
+}
+ .custom-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 10px;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.buttons-calc{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+div{
+  color: #8a9291;
+  padding: 0px 0px 10px 0px;
+}
+.custom-btn input{
+  width: 100%;
+  text-align: center;
+  color:#8a9291;
+  font-size: 2vh; 
+}
+
+
+.bill-calc{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  background-color: #00474b;
+  border-radius: 10px;
+  padding: 30px;
+}
+.tip-amount{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tip-bold{
+  color: white;
+}
+.person{
+  font-size: 12px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2rem;
+  width: 20vw;
+  color: #32b4a2;
+}
+.bill-calc button{
+  background-color: #32b4a2;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  
+    .App{
+      flex-direction: column;
+      width:100%;
+      max-height: 100vh;
+      padding: 20px;
+      align-items: center;
+    }
+
+    .left-main{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 0px; 
+    }
+
+    .bill-calc{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 100%;
+      
+      justify-content: space-around;
+      background-color: #00474b;
+      border-radius: 10px;
+    }
+    .buttons-calc{
+      grid-template-columns: 1fr 1fr ;
+    }
+} 
+
+@media screen and (max-width: 426px){
+ 
+ #root{
+  width: 100%;
+  padding: 0px;
+ }
+  .App{
+  max-width: 80vw;
+ }
+ .right{
+  font-size: 4vh;
+ }
+}
+

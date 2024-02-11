@@ -15,7 +15,7 @@ function Card({ title, description, image, link }) {
         />
         <div className={styles.div}>
           <h1>{title}</h1>
-          
+
           <p>{description}</p>
         </div>
       </div>
@@ -37,17 +37,47 @@ export default function Home() {
           image={recepiPhoto}
           link={"/project1"}
         />
+         <Card
+          title={"Form Page"}
+          description={"18/01/2023"}
+          image={"/localhost_3000_project8.png"}
+          link={"/project8"}
+        />
         <Card
           title={"Travel Book"}
           description={"18/01/2023"}
           image={"/localhost_3000_project2.png"}
           link={"/project2"}
         />
+         <Card
+          title={"Tips Calculator"}
+          description={"15/03/2023"}
+          image={"/localhost_3000_project6.png"}
+          link={"/project6"}
+        />
+          <Card
+          title={"Ecommerce"}
+          description={"15/03/2023"}
+          image={"/localhost_3000_project7.png"}
+          link={"/project7"}
+        />
         <Card
           title={"TimeTrack"}
           description={"09/03/2023"}
           image={"/localhost_3000_project3.png"}
           link={"/project3"}
+        />
+        <Card
+          title={"Portfolio"}
+          description={"13/03/2023"}
+          image={"/localhost_3000_project4.png"}
+          link={"/project4"}
+        />
+        <Card
+          title={"Calculator"}
+          description={"13/03/2023"}
+          image={"/localhost_3000_project5.png"}
+          link={"/project5"}
         />
       </section>
     </main>

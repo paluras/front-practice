@@ -1,0 +1,156 @@
+
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+.root {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3b4664;
+}
+#darkroot{
+    background-color: #e6e6e6;
+}
+.App{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    max-width: 91vw;  
+    gap: 20px;
+}
+
+#darknav-bar{ color: black;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    color: #e9e3db;
+}
+.title{
+    font-size: 1.7rem;
+}
+.right-nav{
+    display: flex;
+    width: 40%;
+    justify-content: end;
+}
+
+#darkdisplay{
+    background-color: #eeeeee;
+    color: black;
+}
+.display{
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+    background-color: #252d44;
+    min-height: 5%;
+    border-radius: 10px;
+    font-size: 32px;
+    padding: 10%;
+    width: 80%;
+    color: #e9e3db;
+    font-weight: 700;   
+}
+
+#darkmain-div{
+    background-color: #d3cdcd;
+
+}
+main{
+    background-color: #252d44;
+    padding:  10%;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr) auto ;
+    gap: 10px;
+    border-radius: 10px;  
+}
+
+button{
+    background-color: #e9e3db;
+    font-size: 32px;
+    color: #43475b;
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    border-bottom: 5px #afa297 solid;
+    font-size: 1.7rem;
+    text-align: center;
+    
+}
+#darkRESET:hover{
+    background-color: #6ecdd6;
+}
+#darkDEL:hover{
+    background-color: #6ecdd6;
+}   
+button:hover{
+    background-color: white;
+}
+
+#darkRESET{
+    background-color: #62b5bd;
+    border-color: #47848a;
+}
+.RESET{
+    background-color: #647199;
+    border-color: #424b65;
+    grid-row: 5 / 6;
+    color: #e9e3db;
+}
+#darkDEL{
+    background-color: #62b5bd;
+    border-color: #47848a;
+}
+.DEL{
+    background-color: #647199;
+    border-color: #424b65;
+    color: #e9e3db;
+}
+main button:nth-last-of-type(1),
+main button:nth-last-of-type(2) {
+  grid-column: 1 / span 2;
+  
+}
+
+main button:nth-last-of-type(2):hover{
+    background-color: #ff4c3a;
+}
+#dark\=:hover {
+    background-color: #ffa438;
+}
+
+ #dark\= {
+    background-color: #ff8a38;
+    border-color: #b26027 ;
+}
+main button:nth-last-of-type(2) {
+  grid-row: 5 / 6;
+  grid-column: 3 / 5;
+  background-color: #d13f30;
+  border-color: #9e2f24 ;
+  color: #e9e3db;
+}
+
+@media screen and (min-width: 768px) {  
+    .App{
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 30vw;  
+        gap: 20px;
+    }
+}
