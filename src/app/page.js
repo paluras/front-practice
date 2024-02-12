@@ -77,7 +77,7 @@ export default function Home() {
           title={"Ecommerce"}
           description={"15/03/2023"}
           image={"/localhost_3000_project7.png"}
-          link={"/project7"}
+          link={"https://ecomerce-paluras.vercel.app/"}
         />
         <Card
           title={"TimeTrack"}

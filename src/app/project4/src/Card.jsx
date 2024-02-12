@@ -4,7 +4,7 @@ import Image from "next/image";
 function Card() {
   return (
     <div className="projects">
-      <Image width={400} height={400} src={project} alt="Project made in html and css"></Image>
+      <Image src={project} alt="Project made in html and css"></Image>
       <h3>Design Portfolio</h3>
       <ul>
         <li>HTML</li>

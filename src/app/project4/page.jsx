@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import "./src/App.css";
 import Card from "./src/Card";
