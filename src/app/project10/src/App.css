@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    overflow: hidden;
+}
+body{
+    background-color: #f8e8dc ;   
+}
+#root{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width: auto;
+}
+.App{
+    
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ec745d;
+    border-radius: 15px;
+    color: #fffcf6;
+    margin-bottom: 10px;
+    padding: 1.5% 2%;
+    width: 22%;
+    min-width: 396px;
+}
+
+.left-nav > h2{
+    font-size: 32px;
+}
+
+nav > img {
+    width: 20%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #fffcf6;
+    width: 22%;
+    height: 40%;
+    justify-content: space-around;
+    padding: 0px 2% 0px;
+    border-radius: 15px;
+    min-width: 396px;
+}
+
+.spendings {
+    font-weight: 700;
+    font-size: 24px;
+}
+.weekGraph{
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    align-items: end;
+    justify-content: space-around;
+    padding-top: 5px;
+    height: 150px;
+}
+.weekGraph > div {
+    width: 50px;
+} 
+.bottom-spendings{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top:1px solid #f3ece3;
+}
+
+.bottom-spendings > .left-bottom > p {
+    color: hsl(28, 10%, 53%);
+    font-size: 12px;
+    text-align: start;
+}
+.bottom-spendings > .left-bottom > h2 {
+    font-size: 32px;
+    text-align: end;
+    
+}
+.bottom-spendings > .right > p {
+    color: hsl(28, 10%, 53%);
+}
+.bottom-spendings > .right > h5 {
+    text-align: end;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        min-width: 300px;
+    }
+
+    main{
+        min-width: 300px;
+    }
+
+    .weekGraph > div {
+        width: 40px;
+    } 
+}

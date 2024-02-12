@@ -49,6 +49,12 @@ export default function Home() {
           image={"/localhost_3000_project2.png"}
           link={"/project2"}
         />
+           <Card
+          title={"Bank Graph"}
+          description={"18/01/2023"}
+          image={"/localhost_3000_project10.png"}
+          link={"/project10"}
+        />
          <Card
           title={"Tips Calculator"}
           description={"15/03/2023"}
@@ -78,6 +84,12 @@ export default function Home() {
           description={"13/03/2023"}
           image={"/localhost_3000_project5.png"}
           link={"/project5"}
+        />
+          <Card
+          title={"Tenzies"}
+          description={"13/03/2023"}
+          image={"/localhost_3000_project9.png"}
+          link={"/project9"}
         />
       </section>
     </main>
