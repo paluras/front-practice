@@ -37,11 +37,17 @@ export default function Home() {
           image={recepiPhoto}
           link={"/project1"}
         />
-         <Card
+        <Card
           title={"Form Page"}
           description={"18/01/2023"}
           image={"/localhost_3000_project8.png"}
           link={"/project8"}
+        />
+         <Card
+          title={"Landing Page"}
+          description={"18/01/2023"}
+          image={"/localhost_3000_project11.png"}
+          link={"/project11"}
         />
         <Card
           title={"Travel Book"}
@@ -49,19 +55,25 @@ export default function Home() {
           image={"/localhost_3000_project2.png"}
           link={"/project2"}
         />
-           <Card
+         <Card
+          title={"Advice Generator"}
+          description={"18/01/2023"}
+          image={"/localhost_3000_project12.png"}
+          link={"/project12"}
+        />
+        <Card
           title={"Bank Graph"}
           description={"18/01/2023"}
           image={"/localhost_3000_project10.png"}
           link={"/project10"}
         />
-         <Card
+        <Card
           title={"Tips Calculator"}
           description={"15/03/2023"}
           image={"/localhost_3000_project6.png"}
           link={"/project6"}
         />
-          <Card
+        <Card
           title={"Ecommerce"}
           description={"15/03/2023"}
           image={"/localhost_3000_project7.png"}
@@ -85,7 +97,7 @@ export default function Home() {
           image={"/localhost_3000_project5.png"}
           link={"/project5"}
         />
-          <Card
+        <Card
           title={"Tenzies"}
           description={"13/03/2023"}
           image={"/localhost_3000_project9.png"}
