@@ -1,4 +1,4 @@
-##A collection of my projects
+## A collection of my projects
 Bad or good , i still made em.
 
 ## Getting Started
