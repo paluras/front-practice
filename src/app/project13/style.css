@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #19332d ;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    color: white;
+}
+section{
+    position: relative;
+}
+
+.grass-img{
+    image-rendering: pixelated;
+    object-fit: cover ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("./grass.webp");
+ 
+    background-repeat: repeat-x;
+}

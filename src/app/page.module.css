@@ -1,6 +1,9 @@
 .main {
   padding: 20px;
 }
+.h1{
+  padding:10px 20px;
+}
 
 .img {
   position: relative;

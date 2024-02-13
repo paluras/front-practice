@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <main>
       <header>
-        <h1>Practice</h1>
+        <h1 className={styles.h1}>Practice</h1>
       </header>
       {/* Create a component for displaying each design */}
       <section className={styles.section}>
@@ -36,6 +36,12 @@ export default function Home() {
           description={"02/08/2024"}
           image={recepiPhoto}
           link={"/project1"}
+        />
+          <Card
+          title={"Interactive page"}
+          description={"23/02/2024"}
+          image={"/localhost_3000_project13.png"}
+          link={"/project13"}
         />
         <Card
           title={"Form Page"}
