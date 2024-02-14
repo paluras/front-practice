@@ -37,9 +37,15 @@ export default function Home() {
           image={recepiPhoto}
           link={"/project1"}
         />
+         <Card
+          title={"Recreate design"}
+          description={"14/02/2024"}
+          image={"/localhost_3000_project14.png"}
+          link={"/project14"}
+        />
           <Card
           title={"Interactive page"}
-          description={"23/02/2024"}
+          description={"13/02/2024"}
           image={"/localhost_3000_project13.png"}
           link={"/project13"}
         />

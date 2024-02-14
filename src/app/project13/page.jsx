@@ -20,9 +20,8 @@ const FollowMouse = () => {
         y: e.clientY,
       });
     };
-
+    
     window.addEventListener("mousemove", handleMouseMove);
-
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
@@ -96,8 +95,7 @@ const FollowMouse = () => {
             left: "0",
             width:"100%",
             height:"500px",
-            backgroundImage:`url${grass}`,
-           backgroundRepeat:"repeat-x",
+             backgroundRepeat:"repeat-x",
             pointerEvents: "none", // Ensure the element does not interfere with mouse events
           }}
           src={grass}

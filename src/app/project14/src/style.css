@@ -1,0 +1,20 @@
+body {
+  padding: 20px 40px;
+}
+html{
+  background-color: #c6d0da;
+}
+
+.custom-btn {
+  display: flex;
+  align-items: flex-end;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 1px solid white;
+}

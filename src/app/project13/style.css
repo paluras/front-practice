@@ -13,17 +13,10 @@ header{
     padding: 20px;
     color: white;
 }
-section{
-    position: relative;
-}
+
 
 .grass-img{
-    image-rendering: pixelated;
-    object-fit: cover ;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+ 
     background-image: url("./grass.webp");
  
-    background-repeat: repeat-x;
 }
