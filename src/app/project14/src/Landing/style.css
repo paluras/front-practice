@@ -27,7 +27,7 @@ section {
       align-items: center;
 
       & div {
-       
+        display: flex;
         width: 100%;
         background: none;
         color: white;
