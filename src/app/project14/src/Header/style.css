@@ -44,3 +44,50 @@ nav:nth-child(3) {
     }
   }
 }
+.close{
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+svg{
+  cursor: pointer;
+  z-index: 51;
+}
+
+.absolute-opac{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(88, 99, 110, 0.459);
+  transition: opacity 0.5s linear;
+}
+
+
+
+@media (min-width: 1024px){
+  .nav-mobile{
+    display: none;
+  }
+  nav{
+    display: flex;
+  }
+}
+
+@media (max-width: 1024px){
+  nav{
+    display: none;
+  }
+  .nav-mobile{
+    display: flex;
+  }
+section{
+  & h1{
+    font-size: 32px;
+  }
+}
+ 
+}

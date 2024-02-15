@@ -1,15 +1,11 @@
 'use client'
 
 
-// import Header from "@/app/project14/src/Header/index";
+import Header from "@/app/project14/src/Header/index";
 import "./style.css";
 import Landing from "./Landing";
-import dynamic from 'next/dynamic';
+
 import Head from "next/head";
-
-const HeaderNoSSR = dynamic(() => import('@/app/project14/src/Header/index'), { ssr: false });
-
-
 
 export default function App() {
   return (
@@ -36,7 +32,7 @@ export default function App() {
         }}
       />
 
-      <HeaderNoSSR/>
+      <Header />
       <Landing />
       <div
         style={{
