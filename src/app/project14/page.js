@@ -1,9 +1,11 @@
-import App from "./src/App"
+import App from "./src/App";
 
-
-export default function LandingPage () {
-    return(
-        
-        <App/>
-    )
+export default function LandingPage() {
+  return (
+    <>
+      {" "}
+      <App />{" "}
+   
+    </>
+  );
 }

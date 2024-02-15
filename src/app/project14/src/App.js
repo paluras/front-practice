@@ -1,5 +1,4 @@
-'use client'
-
+"use client";
 
 import Header from "@/app/project14/src/Header/index";
 import "./style.css";
@@ -10,17 +9,15 @@ import Head from "next/head";
 export default function App() {
   return (
     <>
-    <Head>
+      <Head>
         <link rel="preload" href="/yacht.jpg" as="image" />
-    </Head>
+      </Head>
       <img
         alt="Yacht"
         loading="eager"
         src="/yacht.jpg"
-        width= {1000}
+        width={1000}
         height={1000}
-
-        
         style={{
           position: "absolute",
           zIndex: "-1",
@@ -34,14 +31,23 @@ export default function App() {
 
       <Header />
       <Landing />
-      <div
-     
-        className="btn-container"
-      >
+      <div className="btn-container">
         {" "}
         <button className="custom-btn">&#x2022; Yachts for sale</button>
         <button className="custom-btn">&#x2022; Yachts for sale</button>
       </div>
+      <footer style={{
+        color:"white",
+        display:"flex",
+        justifyContent:"center",
+        bottom:"0",
+       padding:"20px"
+      }}>
+        {" "}
+        <a href="https://dribbble.com/shots/23629019-Fraser-Yachts-website">
+          Design By Nazar Stasiv
+        </a>
+      </footer>
     </>
   );
 }
