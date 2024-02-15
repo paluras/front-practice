@@ -5,7 +5,9 @@ const Landing = () => {
   return (
     <section>
       <h1>Step aboard another world</h1>
-      <div>
+      <div style={{
+        display:"flex"
+      }}>
         <p>
           Buying, building, selling a superyacht? In search of the perfect yacht
           charter vacantion? you will find it all with Fraser.
