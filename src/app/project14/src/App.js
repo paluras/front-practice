@@ -1,9 +1,15 @@
-import Header from "@/app/project14/src/Header/index";
+'use client'
+
+
+// import Header from "@/app/project14/src/Header/index";
 import "./style.css";
 import Landing from "./Landing";
-import boatImg from "../public/yacht.jpg";
-import Image from "next/image";
+import dynamic from 'next/dynamic';
 import Head from "next/head";
+
+const HeaderNoSSR = dynamic(() => import('@/app/project14/src/Header/index'), { ssr: false });
+
+
 
 export default function App() {
   return (
@@ -30,7 +36,7 @@ export default function App() {
         }}
       />
 
-      <Header />
+      <HeaderNoSSR/>
       <Landing />
       <div
         style={{
