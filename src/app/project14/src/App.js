@@ -35,12 +35,7 @@ export default function App() {
       <Header />
       <Landing />
       <div
-        style={{
-          position: "absolute",
-          bottom: "60px",
-          display: "flex",
-          gap: "10px",
-        }}
+     
         className="btn-container"
       >
         {" "}

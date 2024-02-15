@@ -5,6 +5,14 @@ html{
   background-color: #c6d0da;
 }
 
+
+.btn-container{
+   position : absolute;
+   
+   bottom: 60px;
+   display: flex;
+   gap: 10px;
+}
 .custom-btn {
   display: flex;
   align-items: flex-end;
@@ -18,3 +26,11 @@ html{
   border-radius: 50px;
   border: 1px solid white;
 }
+
+@media (max-width: 768px) {
+  .btn-container{
+    position: static;
+  }
+}
+
+
