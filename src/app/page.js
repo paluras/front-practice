@@ -31,9 +31,15 @@ export default function Home() {
       </header>
       {/* Create a component for displaying each design */}
       <section className={styles.section}>
+      <Card
+          title={"Furniture Store"}
+          description={"16/02/2024"}
+          image={"/localhost_3000_project15.png"}
+          link={"/project15"}
+        />
         <Card
           title={"Recipe"}
-          description={"02/08/2024"}
+          description={"08/02/2024"}
           image={recepiPhoto}
           link={"/project1"}
         />
